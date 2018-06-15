@@ -7,7 +7,7 @@ development:
   mode: unreleased
 
 navbar:
-  title: "twiverse"
+  title: "twinetverse"
   left:
     - icon: fa-home
       href: index.html
@@ -15,9 +15,9 @@ navbar:
       href: "articles/packages.html"
   right:
     - icon: fa-github fa-lg
-      href: https://github.com/JohnCoene/twiverse
+      href: https://github.com/JohnCoene/twinetverse
     - icon: fa-bitbucket fa-lg
-      href: https://bitbucket.org/JohnCoene/twiverse
+      href: https://bitbucket.org/JohnCoene/twinetverse
 
 authors:
   John Coene:

@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-List of packages included in `twiverse`.
+List of packages included in `twinetverse`.
 
 ## rtweet 
 

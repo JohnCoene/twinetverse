@@ -1,4 +1,4 @@
-Package: twiverse
+Package: twinetverse
 Title: Easily Install and Load Packages for 'Twitter' Network Analysis and Visualisation
 Version: 0.0.1
 Authors@R: person("John", "Coene", email = "jcoenep@gmail.com", role = c("aut", "cre"))
@@ -19,6 +19,6 @@ RoxygenNote: 6.0.1
 Remotes: JohnCoene/sigmajs
 Suggests: knitr,
     rmarkdown
-URL: http://twiverse.john-coene.com/
-BugReports: https://github.com/JohnCoene/twiverse/issues
+URL: http://twinetverse.john-coene.com/
+BugReports: https://github.com/JohnCoene/twinetverse/issues
 VignetteBuilder: knitr

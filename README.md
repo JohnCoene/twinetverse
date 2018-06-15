@@ -1,6 +1,6 @@
-# twiverse
+# twinetverse
 
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/twiverse)](https://cran.r-project.org/package=twiverse) [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental) [![Travis-CI Build Status](https://travis-ci.org/JohnCoene/twiverse.svg?branch=master)](https://travis-ci.org/JohnCoene/twiverse) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/JohnCoene/twiverse?branch=master&svg=true)](https://ci.appveyor.com/project/JohnCoene/twiverse)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/twinetverse)](https://cran.r-project.org/package=twinetverse) [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental) [![Travis-CI Build Status](https://travis-ci.org/JohnCoene/twinetverse.svg?branch=master)](https://travis-ci.org/JohnCoene/twinetverse) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/JohnCoene/twinetverse?branch=master&svg=true)](https://ci.appveyor.com/project/JohnCoene/twinetverse)
 
 Easily install and load packages for Twitter network analysis and visualisation.
 
@@ -8,8 +8,8 @@ Easily install and load packages for Twitter network analysis and visualisation.
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("JohnCoene/twiverse") # github
-devtools::install_bitbucket("twiverse", "JohnCoene") # bitbucket
+devtools::install_github("JohnCoene/twinetverse") # github
+devtools::install_bitbucket("twinetverse", "JohnCoene") # bitbucket
 ```
 ## Includes
 
@@ -19,4 +19,4 @@ Packages do not conflict.
 - [graphTweets](http://graphtweets.john-coene.com/)
 - [sigmajs](http://sigmajs.john-coene.com/)
 
-## [Website](http://twiverse.john-coene.com)
+## [Website](http://twinetverse.john-coene.com)
