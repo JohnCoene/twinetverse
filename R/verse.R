@@ -37,8 +37,8 @@ twiverse_attach <- function(pkgs){
 
   cat(
     cli::rule(
-      left = "Attaching twiverse",
-      right = paste0("twiverse ", utils::packageVersion("twiverse"))
+      left = "Attaching twinetverse",
+      right = paste0("twinetverse ", utils::packageVersion("twinetverse"))
     ),
     "\n"
   )
