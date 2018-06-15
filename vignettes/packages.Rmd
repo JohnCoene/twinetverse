@@ -22,16 +22,16 @@ List of packages included in `twinetverse`.
 
 <img src="http://rtweet.info/reference/figures/logo.png" style="max-height:250px;"/>
 
-`rtweet` is an R client for accessing Twitter’s REST and stream APIs. Check out the thorough documentation [website](http://rtweet.info/).
+`rtweet` is an R client for accessing Twitter’s REST and stream APIs. All you need to **collect** tweets is a Twitter account and you can be up in running in minutes! Check out the thorough documentation [website](http://rtweet.info/).
 
 ## graphTweets 
 
 <img src="http://graphtweets.john-coene.com/logo.png" style="max-height:250px;"/>
 
-`graphTweets` is an R package to visualise Twitter conversations. Check the [website](http://graphtweets.john-coene.com/) for examples and documentation.
+`graphTweets` is an R package to **build** networks of Twitter interactions. Check the [website](http://graphtweets.john-coene.com/) for examples of static and dynamic networks.
 
 ## sigmajs 
 
 <img src="http://sigmajs.john-coene.com/reference/figures/logo.png" style="max-height:250px;"/>
 
-`sigmajs` lets you visualise social network in a highly configurable and interactive way. Check the [website](http://sigmajs.john-coene.com/) for examples and complete documentation.
+`sigmajs` lets you create and **visualise** networks in an interactive way, the package is highly configurable and shiny-centric to leverage sigma.js' great many methods. Check the [website](http://sigmajs.john-coene.com/) for examples and complete documentation.

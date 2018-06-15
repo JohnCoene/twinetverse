@@ -11,6 +11,8 @@ navbar:
   left:
     - icon: fa-home
       href: index.html
+    - icon: fa-newspaper-o
+      href: "news/index.html"
     - icon: fa-archive
       href: "articles/packages.html"
   right:

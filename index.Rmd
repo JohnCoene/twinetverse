@@ -18,24 +18,32 @@ devtools::install_github("JohnCoene/twinetverse") # github
 devtools::install_bitbucket("twinetverse", "JohnCoene") # bitbucket
 ```
 
+## Rationale
+
 Features all the packages you need to collect, build and visualise Twitter networks. Each package fills a specific need in dealing with Twitter networks.
 
 ```{r, echo=FALSE}
 df <- data.frame(
-  pipeline = 1:3,
-  action = c(
+  Action = c(
     "Collect",
     "Build",
     "Visualise"
   ),
-  package = c(
+  Package = c(
     "rtweet",
     "graphTweets",
     "sigmajs"
   )
 )
 
-knitr::kable(df)
+df$Package <- kableExtra::cell_spec(
+  df$Package, 
+  bold = TRUE,
+  color = "white", 
+  background = c("#127ba3", "#5fc1e8", "#23a127")
+)
+
+knitr::kable(df, row.names = TRUE, escape = FALSE)
 ```
 
 <a class="btn btn-primary" href="http://rtweet.info/" target="_blank">
