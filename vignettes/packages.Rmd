@@ -26,6 +26,8 @@ List of packages included in `twiverse`.
 
 ## graphTweets 
 
+<img src="http://graphtweets.john-coene.com/logo.png" style="max-height:250px;"/>
+
 `graphTweets` is an R package to visualise Twitter conversations. Check the [website](http://graphtweets.john-coene.com/) for examples and documentation.
 
 ## sigmajs 
