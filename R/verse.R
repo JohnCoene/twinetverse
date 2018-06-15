@@ -1,4 +1,4 @@
-pkgs <- c("rtweet", "graphTweets")
+pkgs <- c("rtweet", "graphTweets", "sigmajs")
 
 is_attached <- function(x) {
   paste0("package:", x) %in% search()
@@ -8,7 +8,60 @@ unloaded_pkgs <- function(pkgs){
   pkgs[!is_attached(pkgs)]
 }
 
+package_version <- function(x) {
+  version <- as.character(unclass(utils::packageVersion(x))[[1]])
+
+  if (length(version) > 3) {
+    version[4:length(version)] <- crayon::red(as.character(version[4:length(version)]))
+  }
+  paste0(version, collapse = ".")
+}
+
+text_col <- function(x) {
+  # If RStudio not available, messages already printed in black
+  if (!rstudioapi::isAvailable()) {
+    return(x)
+  }
+
+  if (!rstudioapi::hasFun("getThemeInfo")) {
+    return(x)
+  }
+
+  theme <- rstudioapi::getThemeInfo()
+
+  if (isTRUE(theme$dark)) crayon::white(x) else crayon::black(x)
+
+}
+
 twiverse_attach <- function(pkgs){
+
+  cat(
+    cli::rule(
+      left = "Attaching twiverse",
+      right = paste0("twiverse ", utils::packageVersion("twiverse"))
+    ),
+    "\n"
+  )
+
+  # pkg versions
+  versions <- vapply(pkgs, package_version, character(1))
+  packages <- paste0(
+    crayon::green(cli::symbol$tick), " ", crayon::blue(format(pkgs)), " ",
+    crayon::col_align(versions, max(crayon::col_nchar(versions)))
+  )
+
+  if (length(packages) %% 2 == 1) {
+    packages <- append(packages, "")
+  }
+  col1 <- seq_len(length(packages) / 2)
+  info <- paste0(packages[col1], "     ", packages[-col1])
+
+  packageStartupMessage(
+    text_col(
+      paste(info, collapse = "\n")
+    )
+  )
+
   suppressPackageStartupMessages(
     lapply(pkgs, library, character.only = TRUE, warn.conflicts = FALSE)
   )
@@ -22,3 +75,5 @@ twiverse_attach <- function(pkgs){
   twiverse_attach(missing)
 
 }
+
+#' @importFrom utils packageVersion
