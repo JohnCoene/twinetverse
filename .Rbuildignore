@@ -1,2 +1,7 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+_pkgdown.yml
+index.Rmd
+^\.travis\.yml$
+^appveyor\.yml$
+docs

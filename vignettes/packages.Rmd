@@ -1,0 +1,35 @@
+---
+title: "Packages Included"
+author: "John Coene"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Packages Included}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+List of packages included in `twiverse`.
+
+## rtweet 
+
+<img src="http://rtweet.info/reference/figures/logo.png" style="max-height:250px;"/>
+
+`rtweet` is an R client for accessing Twitter’s REST and stream APIs. Check out the thorough documentation [website](http://rtweet.info/).
+
+## graphTweets 
+
+`graphTweets` is an R package to visualise Twitter conversations. Check the [website](http://graphtweets.john-coene.com/) for examples and documentation.
+
+## sigmajs 
+
+<img src="http://sigmajs.john-coene.com/reference/figures/logo.png" style="max-height:250px;"/>
+
+`sigmajs` lets you visualise social network in a highly configurable and interactive way. Check the [website](http://sigmajs.john-coene.com/) for examples and complete documentation.

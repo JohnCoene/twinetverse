@@ -7,7 +7,7 @@ Depends: R (>= 3.4.2)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Imports: 
+Imports:
     rtweet, 
     graphTweets,
     sigmajs,
@@ -17,3 +17,8 @@ Imports:
     rstudioapi
 RoxygenNote: 6.0.1
 Remotes: JohnCoene/sigmajs
+Suggests: knitr,
+    rmarkdown
+URL: http://twiverse.john-coene.com/
+BugReports: https://github.com/JohnCoene/twiverse/issues
+VignetteBuilder: knitr
