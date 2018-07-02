@@ -8,11 +8,11 @@
 <img src="http://sigmajs.john-coene.com/reference/figures/logo.png" align="left" style="max-height:150px;margin-right:2%;"/>
 </a>
 
-<a href="http://rtweet.info/" target="_blank">
+<a href="http://graphTweets.john-coene.com/" target="_blank">
 <img src="http://graphtweets.john-coene.com/logo.png" align="left" style="max-height:150px;margin-right:2%;"/>
 </a>
 
-<a href="http://graphTweets.john-coene.com/" target="_blank">
+<a href="http://rtweet.info/" target="_blank">
 <img src="http://rtweet.info/reference/figures/logo.png" align="left" style="max-height:150px;margin-right:2%;"/>
 </a>
 
