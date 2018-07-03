@@ -21,7 +21,7 @@
 ```{r, eval = FALSE}
 # install.packages("devtools")
 devtools::install_github("JohnCoene/twinetverse") # github
-devtools::install_bitbucket("twinetverse", "JohnCoene") # bitbucket
+devtools::install_bitbucket("JohnCoene/twinetverse") # bitbucket
 ```
 
 ## Rationale
@@ -52,12 +52,6 @@ df$Package <- kableExtra::cell_spec(
 knitr::kable(df, row.names = TRUE, escape = FALSE)
 ```
 
-<a class="btn btn-primary" href="http://rtweet.info/" target="_blank">
-  rtweet
-</a>
-<a class="btn btn-info" href="http://graphtweets.john-coene.com/" target="_blank">
-  graphTweets
-</a>
-<a class="btn btn-success" href="http://sigmajs.john-coene.com/" target="_blank">
-  sigmajs
+<a class="btn btn-lg btn-primary" href="http://twinetbook.john-coene.com/" target="_blank">
+  <i class="fa fa-book"></i> The twinetbook
 </a>
