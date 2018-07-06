@@ -21,7 +21,14 @@ edges2sg <- function(x){
 #' @export
 nodes2sg <- function(x){
   x$id <- x$nodes
-  x$label <- x$nodes
+
+  if("nodes" %in% names(x)){
+    x$label <- x$nodes
+  }
+
+  if("source" %in% names(x)){
+    x$label <- x$source
+  }
 
   if("n_edges" %in% names(x)){
     x$size <- x$n_edges
