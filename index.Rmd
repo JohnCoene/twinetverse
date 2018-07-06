@@ -52,6 +52,15 @@ df$Package <- kableExtra::cell_spec(
 knitr::kable(df, row.names = TRUE, escape = FALSE)
 ```
 
+## Functions
+
+Only 2 functions to help bridge `graphTweets` and `sigmajs`.
+
+* `edges2sg`
+* `nodes2sg`
+
+Also imports the immensely useful `%<-%` operator from the zeallot package. to unpack `graphTweets` network list.
+
 <a class="btn btn-lg btn-primary" href="http://twinetbook.john-coene.com/" target="_blank">
   <i class="fa fa-book"></i> The twinetbook
 </a>

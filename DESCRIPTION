@@ -1,6 +1,6 @@
 Package: twinetverse
 Title: Easily Install and Load Packages for 'Twitter' Network Analysis and Visualisation
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: person("John", "Coene", email = "jcoenep@gmail.com", role = c("aut", "cre"))
 Description: Easily install and load packages for 'Twitter' network Analysis and visualisation.
 Depends: R (>= 3.4.2)
@@ -14,7 +14,8 @@ Imports:
     crayon,
     cli,
     utils,
-    rstudioapi
+    rstudioapi,
+    zeallot
 RoxygenNote: 6.0.1
 Remotes: JohnCoene/sigmajs
 Suggests: knitr,
