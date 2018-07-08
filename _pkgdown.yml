@@ -18,7 +18,6 @@ navbar:
     - icon: fa-bolt
       href: "reference/"
     - icon: fa-book
-      text: The book
       href: "http://twinetbook.john-coene.com/"
   right:
     - icon: fa-github fa-lg
