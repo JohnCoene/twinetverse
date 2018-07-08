@@ -1,6 +1,6 @@
 # twinetverse
 
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/twinetverse)](https://cran.r-project.org/package=twinetverse) [![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing) [![Travis-CI Build Status](https://travis-ci.org/JohnCoene/twinetverse.svg?branch=master)](https://travis-ci.org/JohnCoene/twinetverse) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/JohnCoene/twinetverse?branch=master&svg=true)](https://ci.appveyor.com/project/JohnCoene/twinetverse)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/twinetverse)](https://cran.r-project.org/package=twinetverse) [![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing) [![Travis-CI Build Status](https://travis-ci.org/JohnCoene/twinetverse.svg?branch=master)](https://travis-ci.org/JohnCoene/twinetverse) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/JohnCoene/twinetverse?branch=master&svg=true)](https://ci.appveyor.com/project/JohnCoene/twinetverse) [![twinetverse](https://img.shields.io/badge/twinetverse-0.0.2-yellow.svg)](http://twinetverse.john-coene.com/)
 
 ![logo](man/figures/logo.png)
 
