@@ -22,21 +22,23 @@ edges2sg <- function(x){
 nodes2sg <- function(x){
 
   if("nodes" %in% names(x)){
-    x$label <- x$nodes
-    x$id <- x$nodes
-  }
+    label <- x$nodes
+    id <- x$nodes
 
-  if("source" %in% names(x)){
-    x$label <- x$source
-    x$id <- x$source
+    re <- data.frame(
+      id = id,
+      label = label
+    )
+
+    x$nodes <- NULL
+
+    x <- cbind.data.frame(re, x)
   }
 
   if("n_edges" %in% names(x)){
     x$size <- x$n_edges
     x$n_edges <- NULL
   }
-
-  x$nodes <- NULL
 
   return(x)
 }
