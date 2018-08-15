@@ -13,6 +13,11 @@ edges2sg <- function(x){
     x$size <- x$n_tweets
     x$n_edges <- NULL
   }
+  
+  if("n" %in% names(x)){
+    x$size <- x$n
+    x$n <- NULL
+  }
 
   return(x)
 }
@@ -38,6 +43,11 @@ nodes2sg <- function(x){
   if("n_edges" %in% names(x)){
     x$size <- x$n_edges
     x$n_edges <- NULL
+  }
+  
+  if("n" %in% names(x)){
+    x$size <- x$n
+    x$n <- NULL
   }
 
   return(x)
