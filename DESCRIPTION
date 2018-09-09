@@ -17,7 +17,6 @@ Imports:
     rstudioapi,
     zeallot
 RoxygenNote: 6.1.0
-Remotes: JohnCoene/sigmajs
 Suggests: knitr,
     rmarkdown
 URL: http://twinetverse.john-coene.com/
