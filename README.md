@@ -22,3 +22,4 @@ Packages do not conflict.
 - [sigmajs](http://sigmajs.john-coene.com/)
 
 ## [Website](http://twinetverse.john-coene.com)
+## [Book](https://twinetbook.john-coene.com/)
