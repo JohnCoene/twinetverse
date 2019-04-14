@@ -11,13 +11,11 @@ navbar:
   left:
     - icon: fa-home
       href: index.html
-    - icon: fa-newspaper-o
-      href: "news/index.html"
     - icon: fa-archive
+      text: Packages
       href: "articles/packages.html"
-    - icon: fa-bolt
-      href: "reference/"
     - icon: fa-book
+      text: Book
       href: "http://twinetbook.john-coene.com/"
   right:
     - icon: fa-github fa-lg
