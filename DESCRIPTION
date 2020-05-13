@@ -22,3 +22,5 @@ Suggests: knitr,
 URL: http://twinetverse.john-coene.com/
 BugReports: https://github.com/JohnCoene/twinetverse/issues
 VignetteBuilder: knitr
+Remotes:
+    JohnCoene/sigmajs
